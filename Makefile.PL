@@ -8,7 +8,7 @@ WriteMakefile(
     ABSTRACT     => 'Prevayler implementation - www.prevayler.org',
     PREREQ_PM	 => {
 				'Class::MethodMaker' 	=> 0,
-				#'File::Sync'		=> 0,
+				'File::Sync'		=> 0,
 				'File::Spec'		=> 0,
 			}
 );
